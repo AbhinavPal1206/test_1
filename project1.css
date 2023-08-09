@@ -1,0 +1,139 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  .header {padding-left: 136px;
+    padding-top: 60px;
+    font-style: normal;
+    font-family: Inter;;
+    flex-shrink: 0;
+    background:#FFCD9E ;
+    color: white; 
+    
+  }
+  .footer {
+   flex-shrink: 0;
+   padding-top: 20px;
+   padding-bottom: 20px;
+    padding-left: 30px;
+    background: black; 
+  }
+  .row1{
+    display: flex;
+
+  }
+
+  .row2{
+    display: flex;
+  }
+  
+  
+  .column1{
+    flex: 50%;
+    position: relative;
+
+
+  }
+  .column2{
+    flex: 50%;
+    text-align: center;
+
+  }
+  .column4{
+    flex: 50%;
+    justify-content: flex-end;
+  }
+  .yur{
+    width: 350px;
+    height: auto;
+   
+  }
+  h1{
+    position: relative;
+    top: 1px;
+    left: 1px;
+    font-size: 36px;
+    color: black;
+    justify-content: left;
+}
+.lst{
+  list-style-type: none;
+color: #fff;
+padding-top: 50px;
+padding: 5px;
+font-size: medium;
+line-height: 160%;
+padding-left: 150px;
+}
+.pa1{display: flex;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+  color: #484848;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+
+}
+.pa2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #282828;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+}
+.pa3{width: 250px;
+  border-radius: 4px;
+  border: 2px solid #000;
+  background: #FFF;
+  padding: 8px;
+}
+.pa4{width: 180px;
+ height: 35px;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+color: white;
+background-color: #000;
+}
+.pa5{
+  color: #FFF;
+text-align: left;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+padding-left: 10px;
+height: 50px;
+padding-bottom: 52px;
+}
+.pa6{
+width: 29.405px;
+height: 27.42px;
+margin-top: 7px;
+margin-right: 7px;
+
+}
+.pa7{
+  color: #FFF;
+font-family: Inter;
+font-size: medium;
+font-style: normal;
+justify-content: flex-end;
+margin-top: 5px;
+}
+.ter{
+  list-style-type: none;
+  text-align: right;
+  margin-right: 180px;
+ 
+}
+.pa8{
+  color: #FFF;
+  margin-top: 30px;
+  font-size: medium;
+  font-style: normal;
+  justify-content: flex-end;
+}
